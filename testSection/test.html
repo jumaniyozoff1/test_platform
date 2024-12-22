@@ -4,16 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./test.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="./test.js" defer></script>
-    <title>temurlan</title>
+    <title>quiz</title>
   </head>
   <body>
-    <!-- bu file hamda folder temurlan uchun, xullas umumiy file bu joyga va ushbu file dagi test.html hamda test.css hamda test.js ga egalik qilasiz va ushbu 3 ta file bilan ishlaysiz boshqa joylarga tegmang iltimos -->
     <div class="containerTest">
-      <h1 class="one">
-        bu joyga testni boshlash hamda yakunlash yakuniy natijalar yozilishi
-        kerak
-      </h1>
+      <div id="quizbox">
+        <div class="container mt-5">
+          <div class="row justify-content-center">
+            <div class="col-md-8">
+              <div class="quiz-box" id="quizheader">
+                <div class="quiz-header">
+                  <h2 class="text-center mb-0" id="quiztex">Quiz Savoli</h2>
+                </div>
+                <div class="card-body" id="cardbody"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
