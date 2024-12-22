@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./profile.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
@@ -16,8 +17,27 @@
     <nav class="navbar navbar-dark bg-primary">
       <div class="container-fluid">
         <button onclick="goToHome()" class="btn btn-success">Home</button>
-        <a class="navbar-brand" href="#">Sarvarbek Jumaniyozov</a>
+        <a class="navbar-brand" href="#">Muslimabonu Ergasheva</a>
       </div>
     </nav>
+
+    <main id="main">
+      <select id="difficulty">
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="hard">Hard</option>
+      </select>
+
+      <button
+        onclick="window.location.href = `testSection/test.html`"
+        class="btn btn-primary"
+      >
+        Testni boshlash
+      </button>
+      <div class="tops">
+        <h3>Darajalar</h3>
+        <h4>Top 1 dasiz</h4>
+      </div>
+    </main>
   </body>
 </html>
